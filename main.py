@@ -51,6 +51,7 @@ def _gate_ok(word):
         and word
         and len(word.split()) == 1
         and word.isascii()
+        and word.isprintable()
     )
 
 
